@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestFire Suite]" parallel="tests">
+  <test thread-count="5" name="Profile Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.facebook.pom.testfire.FeedbackTest">
+        <methods>
+          <include name="provideFeedback" invocation-numbers="1"/>
+          <include name="start"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.facebook.pom.testfire.FeedbackTest -->
+    </classes>
+  </test> <!-- Profile Test(failed) -->
+</suite> <!-- Failed suite [TestFire Suite] -->

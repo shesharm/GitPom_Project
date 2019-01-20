@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestFire Suite" parallel="tests">
+	  <test name="Login Test" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.facebook.pom.testfire.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Profile Test" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.facebook.pom.testfire.FeedbackTest" />
+		</classes>
+	</test>
+	
+
+
+</suite>
+

@@ -1,0 +1,30 @@
+
+
+
+Hub 
+
+setup->
+java -jar C:\HybridFramework\HybridFramework\jar\selenium-server-standalone-3.141.59.jar -role hub
+
+
+
+Node 
+
+1 setup-> 
+java -Dwebdriver.gecko.driver="C:\selenium\drivers\geckodriver.exe" -Dwebdriver.chrome.driver="C:\selenium\drivers\chromedriver.exe" -Dwebdriver.ie.driver="C:\selenium\drivers\IEDriverServer.exe" -jar C:\HybridFramework\HybridFramework\jar\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\HybridFramework\HybridFramework\node1.json
+
+
+
+Node 
+
+
+2 setup->
+java -Dwebdriver.gecko.driver="C:\selenium\drivers\geckodriver.exe" -Dwebdriver.chrome.driver="C:\selenium\drivers\chromedriver.exe" -Dwebdriver.ie.driver="C:\selenium\drivers\IEDriverServer.exe" -jar C:\HybridFramework\HybridFramework\jar\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\HybridFramework\HybridFramework\node2.json
+
+
+
+
+
+
+
+

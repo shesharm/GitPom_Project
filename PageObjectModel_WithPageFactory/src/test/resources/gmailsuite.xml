@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gmail Suite" parallel="tests">
+
+	<test name="Gmail Test" allow-return-values="true">
+		<classes>
+			<class name="com.selenium.facebook.pom.gmailsuite.GmailLogin" />
+		</classes>
+	</test>
+</suite>
+
